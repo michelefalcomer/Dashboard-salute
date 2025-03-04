@@ -2,7 +2,7 @@
 # Dashboard della salute 
 Progetto realizzato durante il corso di Editoria Digitale del prof. Paolo Ceravolo. 
 
-La dashboard interattiva è raggiungibile tramite questa pagina [link](link)
+La dashboard interattiva è raggiungibile tramite questa pagina [Dashboard della salute](https://michelefalcomer.github.io/)
 
 Gli obiettivi principali di questo progetto erano quelli di creare un report interattivo e personalizzato per comprendere al meglio i dati raccolti dai loro dispositivi smart e dare dei consigli in base alle necessità di ogni utente. Principalmente ho sviluppato una componente interattiva(dashboard) e un report meno interattivo. Questi due prodotti si completano a vicenda e permettono di capire meglio i dati che vengono rilevati dai vari dispositivi in suo possesso. Per rendere molto più divertente e stimolante l'attività fisica, ho deciso di inserire una classifica utenti con dei premi ogni mese. Il mio obiettivo era quello di stimolare le persone a fare del loro meglio per arrivare primi in classifica. Tramite questa sana competizione gli utenti vengono inconsciamente "obbligati" a fare molta più attività fisica e quindi il loro stato di salute migliora di conseguenza. 
 
