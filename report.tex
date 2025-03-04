@@ -1,0 +1,203 @@
+\documentclass{article}
+\usepackage{graphicx} % Required for inserting images
+\usepackage[hidelinks]{hyperref}
+\usepackage{inputenc}
+\usepackage{emoji}
+\usepackage{pgfplots}
+\usepackage{pgf-pie}
+\usepackage{xcolor}
+
+
+
+\title{Report mensile}
+\author{Giovanni Farru}
+\date{Marzo 2025}
+\begin{document}
+
+\tableofcontents
+
+\newpage
+
+\maketitle
+
+\section{Attività}
+
+\subsection{Camminata}
+\begin{center}
+    \begin{tikzpicture}
+        \begin{axis}[
+            ybar,
+            symbolic x coords={Il Tuo Livello, Minimo OMS, Ottimale OMS},
+            xtick=data,
+            ymin=0, ymax=12000,
+            ylabel={Passi giornalieri},
+            nodes near coords,
+            enlargelimits=0.2,
+            bar width=25pt,
+            width=12cm,
+            height=7cm
+        ]
+            \addplot coordinates {(Il Tuo Livello,6000) (Minimo OMS,7000) (Ottimale OMS,10000)};
+        \end{axis}
+    \end{tikzpicture}
+\end{center}
+I passi e la distanza giornaliera percorsa questo mese sono inferiori ai livelli minimi stabiliti dall'\textbf{OMS}, continua a impegnarti per superarli il mese prossimo e diventare inarrestabile. Camminare è molto importante, potresti provare anche diverse varianti della camminata, per esempio la camminata veloce. La camminata veloce o camminata sportiva o Walking, in inglese, è una camminata a passo sostenuto: si svolge a circa 6/7 chilometri orari ed è accompagnata dal movimento naturale delle braccia. Non è una corsa, non è una corsa sul posto, non è una corsa più lenta o corsetta, non è una passeggiata. Non ha particolari controindicazioni ed è adatta praticamente a tutti. 
+
+\subsubsection{Distanza camminata}
+La distanza che hai percorso questa settimana a piedi è stata di \textbf{150}\textit{km}.
+Un ottimo risultato! 
+Bisognerebbe fare almeno \textbf{7000} passi al giorno per mantenere uno stile di vita sano. Questo corrisponde a circa \textbf{150-200}\textit{km} in un mese, non ti preoccupare se questo mese non sei riuscito a raggiungere l'obiettivo, ti rifai il prossimo! 
+\subsubsection{Numeri di passi}
+Questo mese hai percorso un totale di \textbf{150.000} passi. Hai superato \textbf{80\%} degli utenti attivi. Continua così!! 
+Aumentando il numero di passi giornalieri e mensili non solo diventi più atletico ma trai dei benefici anche sul sistema cardiovascolare. Infatti l'attività fisica blanda aiuta il sistema cardiovascolare a funzionare meglio e soprattutto riduce il rischio di morte prematura del \textbf{50\%}. (fonte: JAMA Internal Medicine, 2019)
+\begin{itemize}
+    \item Aumenta la tua media giornaliera di 2.000 passi camminando almeno 15-20 minuti in più al giorno.
+    \item Sfrutta momenti della giornata: cammina durante le telefonate o parcheggia l’auto più lontano.
+    \item Fissa un obiettivo progressivo: prova a raggiungere 6.500 passi al giorno il prossimo mese.
+\end{itemize}
+
+\subsubsection{Velocità camminata}
+Questo mese hai svolto le tue camminate a una velocità media di \textbf{7}\textit{km/h}! Un ottimo risultato considerando che l'Organizzazione Mondiale della Sanità consiglia una velocità media che varia tra i \textbf{7} e i \textbf{9} \textit{km/h}. La velocità della camminata corrisponde alla rapidità con cui cammini su una superficie pianeggiante. Diverse velocità possono dipendere dalla tua agilità complessiva e dalle tue condizioni fisiche.
+Camminare richiede forza, coordinazione e una buona forma fisica. Alterazioni di questi fattori possono influenzare la velocità della camminata. Con l'avanzare dell'età normalmente la velocità diminuisce; tuttavia, una riduzione improvvisa potrebbe indicare un'alterazione delle condizioni di salute.
+Mantieni questo ritmo anche il prossimo mese e vedrai che diventerai sempre più forte.
+
+\subsubsection{Stabilità della camminata}
+Il tuo indice di stabilità è \textbf{adeguato}!
+Questo valore rientra nei valori tipici e indica che sei in ottima salute!
+Il grafico seguente mostra l'indice di stabilità della camminata nell'ultimo mese. Valori più alti indicano una maggiore stabilità e un'andatura più regolare.
+
+\begin{center}
+    \begin{tikzpicture}
+        \begin{axis}[
+            width=12cm, height=7cm,
+            xlabel={Giorni del mese},
+            ylabel={Indice di Stabilità (\%)},
+            ymin=70, ymax=100, % Limiti dell'asse Y
+            xmin=1, xmax=30, % Limiti dell'asse X
+            grid=major,
+            axis background/.style={fill=cyan!10}, % Sfondo colorato
+            smooth, % Linea morbida
+            thick, % Linea più spessa
+            legend pos=south east
+        ]
+            \addplot[color=blue, mark=o] coordinates {
+                (1,85) (5,88) (10,90) (15,86) (20,92) (25,94) (30,95)
+            };
+            \addlegendentry{Indice di stabilità}
+        \end{axis}
+    \end{tikzpicture}
+\end{center}
+Questo valore è una stima della tua stabilità mentre cammini. Abbiamo calcolato la stabilità della camminata tramite i dati sulla velocità, sulla lunghezza dei passi, sul tempo di doppio appoggio e sull'asimmetria.
+Queste informazioni descrivono il modo in cui cammini.
+La stabilità è correlata anche al rischio di cadute: se la stabilità diminuisce, il rischio di cadute aumenta. Non indica la probabilità di una caduta in un determinato momento, ma può offrire una prospettiva sul rischio di cadute nei 12 mesi successivi, dopo una lesione o fino al termine della gravidanza.
+
+
+\section{Cuore}
+
+\subsection{Frequenza cardiaca}
+Il cuore batte in media centomila volte al giorno, rallentando o accelerando quando il corpo è a riposo o sotto sforzo. Questo valore corrisponde al numero di battiti al minuto e può essere un indicatore della condizione cardiovascolare generale. 
+
+\begin{center}
+    \begin{tikzpicture}
+        \begin{axis}[
+            width=12cm, height=7cm,
+            xlabel={Giorni del mese},
+            ylabel={Battito Cardiaco (bpm)},
+            ymin=50, ymax=100, 
+            xmin=1, xmax=30, 
+            grid=major, 
+            axis background/.style={fill=gray!10}, 
+            smooth, 
+            thick, 
+            legend pos=south east
+        ]
+        
+        \addplot[color=red, mark=o] coordinates {
+            (1,72) (5,75) (10,78) (15,80) (20,77) (25,82) (30,85)
+        };
+        \addlegendentry{Battito medio giornaliero}
+
+        \addlegendentry{Zona Ottimale (60-80 bpm)}
+
+        \end{axis}
+    \end{tikzpicture}
+\end{center}
+
+La tua condizione è ottima! sei in linea con i dati ottimali per le persone della tua età. Ricorda che puoi sempre migliorare però; ecco alcuni consigli per tenere sottocontrollo il proprio battito cardiaco: 
+\begin{itemize}
+    \item Esercizio fisico regolare
+    \item Mantenere un peso sano
+    \item Sonno di qualità
+    \item Evitare fumo e alcool
+\end{itemize}
+
+
+
+\subsubsection{A riposo}
+La tua frequenza cardiaca a riposo è di \textbf{60}\textit{bpm}.
+La frequenza cardiaca a riposo rappresenta la media dei battiti al minuto rilevata dopo un periodo di inattività o rilassamento di vari minuti. Una frequenza cardiaca ridotta a riposo indica generalmente una buona funzionalità cardiaca e un discreto tono cardiovascolare. Un aumento della frequenza cardiaca a riposo a volte può essere normale e previsto, ad esempio durante una malattia o una gravidanza.
+È possibile ridurla nel tempo conducendo una vita attiva, controllando il peso corporeo e riducendo i livelli di stress. La frequenza cardiaca a riposo non include i valori misurati durante le ore di sonno ed è applicabile agli utenti di età superiore ai 18 anni.
+
+\subsubsection{In movimento}
+La tua frequenza cardiaca in movimento è di \textbf{100}\textit{bpm}.
+Il valore rappresenta la media di battiti al minuto rilevata quando fai attività fisica a ritmo sostenuto durante la giornata.
+Analogamente alla frequenza cardiaca a riposo, una media non elevata viene considerata un indicatore di buona salute cardiaca e cardiovascolare. Un aumento della frequenza cardiaca durante la camminata a volte può essere normale e previsto, ad esempio durante una malattia o una gravidanza. Camminare regolarmente apporta numerosi benefici alla salute: adottando uno stile di vita attivo, controllando il peso corporeo e riducendo i livelli di stress, è possibile abbassare la frequenza cardiaca media.
+\subsection{Tono cardiovascolare}
+Il tuo tono cardiovascolare è di \textbf{40}\textit{VO2}
+Si tratta della misurazione del valore VO2 max, che indica la quantità massima di ossigeno che il corpo è in grado di bruciare durante un allenamento. Noto anche come capacità cardiorespiratoria, è un parametro utile per chiunque, dalle persone in ottima forma fisica a coloro che stanno affrontando una malattia.
+Un valore VO2 max elevato indica un buon tono cardiovascolare e una maggiore resistenza.
+La misurazione di questo valore richiede una prova fisica e apparecchiature particolari. È possibile ottenerne una stima utilizzando i dati relativi alla frequenza cardiaca e al movimento raccolti da un dispositivo di monitoraggio dell'attività fisica. Il tuo dispositivo è in grado di registrare il livello di VO2 max stimato quando fai un allenamento all'aperto di corsa, camminata o trekking a passo sostenuto.
+Questa funzionalità è attendibile per utenti di età pari o superiore ai 20 anni. Molte persone possono migliorare il valore VO2 max facendo allenamenti cardiovascolari di intensità e frequenza crescenti. Alcune patologie o l'assunzione di determinati farmaci potrebbero limitare la frequenza cardiaca e comportare stime in eccesso di questo parametro.
+
+\section{Parametri vitali}
+
+I parametri vitali misurano le funzioni vitali del tuo corpo. Questi parametri includono la temperatura, la pressione sanguigna, IMC, la respirazione e i battiti. Questi dati variano in base al tuo peso e alla tua età. In questa sezione ti mostriamo dei parametri adatti al tuo corpo.
+\subsection{temperatura}
+La temperatura media misurata al polso è stata di \textbf{36.8} \textit{C°}.
+Mediamente la temperatura di una persona varia dai \textbf{36.5} ai \textbf{37.2} \textit{C°}. Cerca di misurarti la temperatura costantemente con dispositivi certificati in modo tale da tenere sotto controllo questo parametro e non incontrare problemi. 
+\subsection{Pressione sanguigna}
+La tua pressione media di questo mese è stata di \textbf{87/45} \textbf{mm Hg}. È un pò bassa per una persona della tua età, però non ti preoccupare non è un sintomo di una patologia. Con “pressione”, si intende l’intensità con cui il sangue scorre nei vasi. Una pressione considerata normale si assesta tra i \textbf{100} e i \textbf{120} \textit{mmHg} (millimetri di mercurio) di massima e i \textbf{75-80} \textit{mmHg} di minima.
+\subsection{IMC}
+Il tuo IMC medio di questo mese è stato di \textbf{20.9}. Perfettamente nella norma. L'indice di massa corporea (IMC o BMI, acronimo Inglese di Body Mass Index) è un parametro che mette in relazione la massa corporea e la statura di un soggetto.
+
+L'IMC fornisce una stima delle dimensioni corporee più accurata rispetto alle vecchie tabelle basate semplicemente su altezza e peso, ma non tiene conto della muscolatura del soggetto e non può essere usato per i soggetti in accrescimento e per le donne incinte.
+
+L'indice di massa corporea è comunque un parametro molto importante. Oltre ad essere utilizzato per la classificazione del sovrappeso e dell'obesità negli uomini adulti e nelle donne non gravide, il BMI è anche un indice epidemiologico.
+
+Esiste infatti una profonda correlazione tra indice di massa corporea e rischio di mortalità per complicazioni cardiovascolari (inclusa l'ipertensione), diabete e malattie renali.
+
+\section{Sonno}
+Il sonno avviene quando il corpo e il cervello entrano in uno stato di incoscienza rigenerante.
+In questa fase, molte delle funzioni basilari sono alterate o sospese, mentre ne vengono svolte altre specifiche di questo stadio. Anche se normalmente non ricordiamo ciò che accade mentre riposiamo, trascorriamo circa un terzo delle nostre vite dormendo.
+Il sonno è uno strumento straordinario. Consente al corpo di riposare e di svolgere la manutenzione di alcune funzioni essenziali tra cui la memoria, gli ormoni e il sistema immunitario. Il sonno migliora la capacità di apprendimento del cervello, aiuta il corpo a contrastare le infezioni, consente al cuore di riposare e può favorire l'abbassamento della pressione arteriosa. Non dormire abbastanza può comportare conseguenze negative per tutte le aree appena elencate e per molte altre.
+Come fai a sapere se dormi abbastanza?
+Probabilmente hai dormito a sufficienza se quando ti svegli senti di aver riposato. La quantità di sonno di cui abbiamo bisogno è molto soggettiva. Di norma per gli adulti sono consigliate dalle 7 alle 8 ore, per i bambini dalle 9 alle 13 ore, mentre per i neonati dalle 12 alle 15 ore.
+\subsection{Consigli per dormire meglio}
+La qualità del sonno è l'elemento fondamentale che distingue una persona ben riposata da una non riposata. Ecco alcuni consigli per dormire meglio:
+\begin{itemize}
+    \item Cerca di esporti regolarmente alla luce del sole per almeno 30 minuti al giorno
+    \item Evita di assumere nicotina e caffeina, poiché entrambe sono sostanze stimolanti che potrebbero impedirti di addormentarti.
+    \item Se hai l'abitudine di fare un pisolino, prova a evitarlo fino a sei ore prima di andare a letto.
+    \item Prova a concludere gli allenamenti almeno due o tre ore prima di andare a dormire.
+    \item Rilassati prima di andare a letto: prendi l'abitudine di leggere un libro, ascoltare musica o scrivere il tuo diario.
+    Un bagno caldo può aiutarti a rilassarti.
+\end{itemize}
+
+
+\section{Respirazione}
+La frequenza respiratoria corrisponde al numero di atti respiratori compiuti in un minuto. Quando inspiri, i polmoni si riempiono di aria e trasferiscono l'ossigeno nel flusso sanguigno.
+Quando espiri, si occupano di espellere l'anidride carbonica dal corpo.
+Il corpo regola la frequenza respiratoria per garantire la quantità di ossigeno necessaria.
+Questo significa che si verificano variazioni frequenti in base al tipo di attività che svolgi e alla
+loro intensità.
+Quando non stai dormendo ma non ti muovi, è probabile che la frequenza respiratoria sia di 12-20 respiri al minuto, che è un intervallo generalmente considerato normale per gli adulti. I bambini respirano in modo leggermente più rapido, con 18-30 respiri al minuto.
+Quando fai esercizio, la respirazione diventa più rapida man mano che cresce l'intensità dello sforzo, perché il corpo deve introdurre più ossigeno ed eliminare più anidride carbonica.
+Se pratichi attività fisica regolarmente, la forza e l'efficienza dei muscoli aumentano, quindi la loro capacità di assorbire l'ossigeno migliora. Inoltre, il cuore e i polmoni diventano più efficienti nel fornire ossigeno e nel rimuovere l'anidride carbonica. Di conseguenza, a una migliore forma fisica in genere corrisponde una frequenza respiratoria più bassa.
+
+\subsection{Frequenza respiratoria}
+La tua frequenza respiratoria media è stata di \textbf{16} respiri al minuto. 
+\subsection{Ossigeno nel sangue}
+Il tuo livello di ossigeno nel sangue è in media al \textbf{98\%}
+Il livello di ossigeno nel sangue è la misura della quantità di ossigeno presente nella proteina che si trova nei globuli rossi (emoglobina). Per funzionare correttamente, il nostro corpo ha bisogno di un determinato livello di ossigeno in circolazione nel sangue. I globuli rossi si saturano di ossigeno nei polmoni e lo trasportano in tutto il corpo.
+
+\end{document}
