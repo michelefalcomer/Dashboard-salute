@@ -11,6 +11,8 @@ bibliography: bibliografia.bib
 csl: IEEE.csl
 ---
 
+![Logo UNIMI](./logo/minerva.jpg){width=100px height=100px}
+
 # Dashboard della salute
 
 Il repository del progetto è presente qui: [Repository](https://github.com/michelefalcomer/Dashboard-salute)
