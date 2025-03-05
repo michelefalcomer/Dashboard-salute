@@ -5,6 +5,7 @@ date:  a.a. 2024/2025
 institute: Università degli Studi di Milano
 course: Editoria Digitale
 kind: Document
+bibliography: bibliografia.bib
 csl: IEEE.csl
 ---
 # Dashboard della salute
