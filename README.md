@@ -1,9 +1,21 @@
-# Dashboard della salute 
-La dashboard interattiva è raggiungibile attraverso questo link: [dashboard della salute](https://michelefalcomer.github.io/)
+# Dashboard della salute 🩺
+Una dashboard interattiva per gestire tutti i tuoi parametri vitali 
+
+La dashboard è raggiungibile da qui: [dashboard della salute](https://michelefalcomer.github.io/)
+
+# Obiettivi 
+L'obiettivo principale era di creare un prodotto digitale che combinasse un report scientificamente accurato e un interfaccia grafica facile e intuitiva. 
+
+# Strumenti utilizzati
+* Mkdocs
+* Overleaf
+* Pandoc
+* Github
+* Visual studio code
 
 # Struttura
-In questo repository sono contenute tutte le cartelle che sono state utilizzate per la creazione del progetto. In particolare nella cartella ./docs sono presenti tutti i file .md che sono serviti per la creazione delle varie pagine del sito web statico. È presente anche il file "report.pdf" che servirà alla sezione "report" per visualizzare il pdf collegato. Nella cartella ./docs/images sono presenti le immagini che ho utilizzato nel sito. Sempre nella cartella ./docs è presente il codice di Latex che ho utilizzato per la creazione del pdf.
-Il sito è stato creato tramite l'utilizzo di Mkdocs e il pdf tramite l'utilizzo di Overleaf. Sono partito facendo una ricerca su quali fossero i dati più importanti che un dispositivo smart tiene in condiderazione. Una volta trovati tutti i dati importanti sono passato alla creazione del pdf, al suo interno sono presenti diverse sezione dove in ognuna si può trovare la descrizione del dato preso in considerazione. Una volta finito, corretto e rivisto il pdf sono passato alla creazione di tutti i file .md. Il sito creato con Mkdocs è stato testato prima in locale così da poter correggere tutti gli errori commessi. Una volta finito il testing ho applicato uno stile grafico e poi, tramite Github Pages, ho "pubblicato" il sito in remoto. 
+Le tecnologie che ho adottato per fare questo progetto sono due: Overleaf per la parte del report.pdf e Mkdocs per generare un sito statico. Le pagine create per il sito statico vengono salvate all'interno della cartella ./docs . Il tema scelto per il sito è "material", che ho inserito all'interno del file mkdocs.yml. Ho utilizzato Github Pages per l'hosting da remoto del sito. Ho utilizzato due strutture differenti; Il sito ha un interfaccia e un utilizzo molto più semplice e intuitivo, il report invece utilizza un'interfaccia tecnica con una formattazione ben precisa. Questa scelta è data dal fatto che i temi trattati non possono essere trattati con leggerezza e ci vuole un supporto tecnico e scientificamente accurato per spiegare tutti i dati presenti. 
+
 
 ```mermaid
 graph LR
