@@ -81,14 +81,6 @@ J(Pubblicazione su <br> Github pages)
 
 I risultati che ho ottenuto tramite questo progetto sono soddisfacenti. La mia idea iniziale era quella di creare una dashboard che fosse facile da usare e tecnica al punto giusto. Secondo me sono riuscito a coniugare le due cose in modo abbastanza efficiente. Infatti le persone meno interessate alla parte tecnica possono usare solo il sito web, mentre coloro che vogliono entrare nel dettaglio per capire le motivazioni dei vari dati possono usare il report in pdf. 
 
-## Bibliografia e sitografia 
-- [@GruppoSanDonato]
-- [@Humanitas]
-- [@OMS]
-- [@AppleSalute]
-- [@MayoClinic]
-- [@Wikipedia]
-- [@MinisteroSalute]
-- [@SleepFoundation]
-- [@Heart]
-- [@JamaMedicine]
+## Bibliografia e sitografia  
+[@GruppoSanDonato, @Humanitas, @OMS, @AppleSalute, @MayoClinic, @Wikipedia, @MinisteroSalute, @SleepFoundation, @Heart, @JamaMedicine]
+
