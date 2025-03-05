@@ -34,7 +34,7 @@ I destinatari di questo prodotto sono definiti da diverse categorie: le persone 
 
 ## Processo di produzione 
 Come prima cosa ho cercato di analizzare quali fossero i dati fondamentali da tenere in considerazione. In questa prima parte ho raccolto informazioni dai siti delle organizzazioni, applicazioni competitor e ChatGpt. Ho cercato di capire quali fossero i punti chiave delle maggiori app in commercio e quali i punti deboli e ho cercato di combinare i vari dati. Per prima cosa ho analizzato e raggruppato tutte i parametri presi in considerazioni in base a delle categorie ben precise, per esempio: i dati del cuore, quelli legati all'attività motoria e al ciclo del sonno. Una volta definite le categorie sono passato alla stesura del report in pdf. In questa fase ho cercato di capire quali fossero le esigenze di una persona sportiva. Il metodo migliore per presentare questi dati era una relazione scientifica con delle descrizioni dettagliate ma concise. A questo scopo mi è tornata molto utile l'applicazione "salute" di Apple che al suo interno raccoglie le descrizioni di tutti i dati in suo possesso. Ho fatto una prima stesura e ho rettificato gli errori o insesattezze confrontando il documento con i dati presenti online. 
-Successivamente sono passato alla seconda fase, la creazione del sito web. Il sito web è stato creato con l'intento di essere utilizzato da persone meno interessate a fare attività sportiva in maniera agonistica, quindi al suo interno contiene solo le informazioni necessarie alla vita quotidiana. Ho estrapolato i dati dal report e ho inserito solo quelli fondamentali. Una volta che tutte le pagine .md sono state create ho ideato lo stratagemma delle classifiche e l'ho inserito nel sito. 
+Successivamente sono passato alla seconda fase, la creazione del sito web. Il sito web è stato creato con l'intento di essere utilizzato da persone meno interessate a fare attività sportiva in maniera agonistica, quindi al suo interno contiene solo le informazioni necessarie alla vita quotidiana. Ho estrapolato i dati dal report e ho inserito solo quelli fondamentali. Una volta che tutte le pagine .md sono state create ho ideato lo stratagemma delle classifiche e l'ho inserito nel sito. Sempre all'interno del sito sono presenti dei grafici esempio per i parametri vitali presi in considerazione. Questi diagrammi sono stati creati attraverso l'uso di E-charts.
 
 Per la creazione dei contenuti ho utilizzato una modalità semi-automatica, ho fatto generare alcuni dati a ChatGpt con la mia supervisione e correzione per verificare l'esattezza dei dati. La maggior parte di essi sono stati estratti manualmente, selezionando le fonti da cui prendere le informazioni. Questo processo diventa fondamentale per una possibile distribuzione del prodotto, bisognerebbe verificare per ogni singola risorsa la licenza in uso e i diritti che questa possiede. 
 Lo stile grafico del pdf è lasciato in gestione a Overleaf, infatti l'obiettivo era dare forma a un report professionale. Il sito web ovviamente dovrebbe avere un interfaccia grafica accattivante che invogli l'utilizzo del prodotto stesso. 
@@ -43,12 +43,12 @@ I dati raccolti, prima di una possibile pubblicazione, andrebbero completati (ho
 
 ## Tecnologie
 Le principali tecnologie e strumenti che ho utilizzato per la stesura di questo progetto sono: 
-- Overleaf: stesura e impaginazione del report in pdf
-- Mkdocs: generazione di un sito statico
-- Visual Studio Code: sviluppo delle pagine .md
-- Github: creazione repository con tutti i file del progetto e hosting tramite Github pages
-- ChatGpt: generazione semi-automatica dei dati presenti nel report
-- Siti vari: raccolta informazioni
+- Overleaf: stesura e impaginazione del report in pdf                   
+- Mkdocs: generazione di un sito statico                    
+- Visual Studio Code: sviluppo delle pagine .md                  
+- Github: creazione repository con tutti i file del progetto e hosting tramite Github pages                   
+- ChatGpt: generazione semi-automatica dei dati presenti nel report              
+- Siti vari: raccolta informazioni                                
   [repository github](https://github.com/michelefalcomer/Dashboard-salute)
 
 
