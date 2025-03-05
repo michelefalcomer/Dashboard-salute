@@ -1,0 +1,13 @@
+site_name: Dashboard salute
+site_url: https://michelefalcomer.github.io/
+theme:
+  name: material
+
+nav:
+  - Home: index.md
+  - Chi siamo: about.md
+  - Dashboard: Dashboard.md
+  - Classifica: Classifica.md
+  - Report: Report.md
+  - Guida: Guida.md
+  - Cartella Clinica: Cartella.md
