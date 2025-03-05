@@ -1,9 +1,12 @@
-
-`` Università degli Studi di Milano ``
-`` Corso di Editoria Digitale`` 
-`` Anno Accademico 2024/2025``
-`` Michele Falcomer 951778`` 
-
+---
+title: Relazione del progetto d'esame di Editoria Digitale
+author: Michele Falcomer 951778
+date:  a.a. 2024/2025
+institute: Università degli Studi di Milano
+course: Editoria Digitale
+kind: Document
+csl: IEEE.csl
+---
 # Dashboard della salute
 
 Il repository del progetto è presente qui: [Repository](https://github.com/michelefalcomer/Dashboard-salute)
