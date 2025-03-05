@@ -4,10 +4,13 @@ author: Michele Falcomer 951778
 date:  a.a. 2024/2025
 institute: Università degli Studi di Milano
 course: Editoria Digitale
+tags: tag1, tag2, tag3
+version: 0.1
 kind: Document
 bibliography: bibliografia.bib
 csl: IEEE.csl
 ---
+
 # Dashboard della salute
 
 Il repository del progetto è presente qui: [Repository](https://github.com/michelefalcomer/Dashboard-salute)
@@ -37,12 +40,12 @@ I dati raccolti, prima di una possibile pubblicazione, andrebbero completati (ho
 
 ## Tecnologie
 Le principali tecnologie e strumenti che ho utilizzato per la stesura di questo progetto sono: 
-* Overleaf: stesura e impaginazione del report in pdf
-* Mkdocs: generazione di un sito statico
-* Visual Studio Code: sviluppo delle pagine .md
-* Github: creazione repository con tutti i file del progetto e hosting tramite Github pages
-* ChatGpt: generazione semi-automatica dei dati presenti nel report
-* Siti vari: raccolta informazioni
+- Overleaf: stesura e impaginazione del report in pdf
+- Mkdocs: generazione di un sito statico
+- Visual Studio Code: sviluppo delle pagine .md
+- Github: creazione repository con tutti i file del progetto e hosting tramite Github pages
+- ChatGpt: generazione semi-automatica dei dati presenti nel report
+- Siti vari: raccolta informazioni
   [repository github](https://github.com/michelefalcomer/Dashboard-salute)
 
 
@@ -74,13 +77,13 @@ J(Pubblicazione su <br> Github pages)
 I risultati che ho ottenuto tramite questo progetto sono soddisfacenti. La mia idea iniziale era quella di creare una dashboard che fosse facile da usare e tecnica al punto giusto. Secondo me sono riuscito a coniugare le due cose in modo abbastanza efficiente. Infatti le persone meno interessate alla parte tecnica possono usare solo il sito web, mentre le persone che vogliono entrare nel dettaglio per capire le motivazioni dei vari dati possono usare il report in pdf. 
 
 ## Bibliografia e sitografia 
-* [Gruppo San Donato](https://www.grupposandonato.it/)
-* [Humanitas](https://www.humanitas.it/)
-* [Organizzazione mondale della sanità](https://www.who.int/)
-* [Apple salute](https://www.apple.com/it/health/)
-* [Mayo clinic](https://www.mayoclinic.org/)
-* [Wikipedia](https://it.wikipedia.org/wiki/Indice_di_massa_corporea)
-* [Ministero della salute](https://www.salute.gov.it/portale/home.html)
-* [Sleep foundation](https://www.sleepfoundation.org/)
-* [Heart](https://www.heart.org/en/)
-* [Jama medicine](https://jamanetwork.com/journals/jamainternalmedicine)
+- [@GruppoSanDonato]
+- [@Humanitas]
+- [@OMS]
+- [@AppleSalute]
+- [@MayoClinic]
+- [@Wikipedia]
+- [@MinisteroSalute]
+- [@SleepFoundation]
+- [@Heart]
+- [@JamaMedicine]
